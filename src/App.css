@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,30 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+h5, .h5 {
+  font-size: .6rem;
+}
+
+ul li, ol li {
+  margin-top: .2rem;
+}
+
+.pictures-columns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 0.6rem;
+  text-align: justify;
+}
+
+.pictures-columns >ul {
+  margin-top: 72px;
+}
+
+.pictures-columns > img {
+  max-width: 40%;
+  margin-top: 11vh;
 }

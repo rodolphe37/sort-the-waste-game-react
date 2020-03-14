@@ -8,8 +8,8 @@ let mainWindow
 
 function createWindow() {
   mainWindow = new BrowserWindow({
-    width: 1000,
-    height: 840,
+    width: 1012,
+    height: 820,
     webPreferences: {
       nodeIntegration: true,
     },
@@ -17,7 +17,7 @@ function createWindow() {
 
   mainWindow.loadURL(
     isDev
-      ? 'http://localhost:3000'
+      ? 'http://localhost:3002'
       : `file://${path.join(__dirname, '../build/index.html')}`,
   )
 
